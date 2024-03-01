@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+*/
+body, .editor-styles-wrapper {
+  .wp-block-maxgruson-details-gallery {
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+  }
+ }

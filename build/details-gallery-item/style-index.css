@@ -1,0 +1,63 @@
+/*!************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/details-gallery-item/style.scss ***!
+  \************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+*/
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block),
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block),
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout {
+  display: grid;
+  gap: 1em;
+  grid-template-columns: repeat(3, 1fr);
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item {
+  margin: 0;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container {
+  position: relative;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container, body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .block-editor-media-placeholder,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .block-editor-media-placeholder, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .block-editor-media-placeholder,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .block-editor-media-placeholder {
+  aspect-ratio: 1;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container__image,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container__image, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .img-container__image,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .img-container__image {
+  opacity: 1;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item figcaption,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item figcaption, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item figcaption,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item figcaption {
+  text-align: left;
+  margin: 0.8em 0;
+  padding: 0 0.8em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item figcaption > *,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item figcaption > *, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item figcaption > *,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item figcaption > * {
+  margin: 0;
+}
+body .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .trash-icon,
+body .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .trash-icon, .editor-styles-wrapper .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block) .wp-block-maxgruson-details-gallery-item .trash-icon,
+.editor-styles-wrapper .wp-block-maxgruson-details-gallery .block-editor-block-list__layout .wp-block-maxgruson-details-gallery-item .trash-icon {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+/*# sourceMappingURL=style-index.css.map*/

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "maxgruson/details-gallery-item",
+  "version": "0.1.0",
+  "title": "Gegevensgalerij-item",
+  "category": "widgets",
+  "icon": "id-alt",
+  "description": "Een afbeelding met toelichtende gegevens.",
+  "example": {},
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "imageURL": {
+      "type": "string"
+    },
+    "imageID": {
+      "type": "number"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "rich-text"
+    },
+    "link": {
+      "type": "object"
+    }
+  },
+  "parent": [
+    "maxgruson/details-gallery"
+  ],
+  "textdomain": "details-gallery",
+  "editorScript": "file:./index.js",
+  "style": "file:./style-index.css",
+  "render": "file:./render.php"
+}

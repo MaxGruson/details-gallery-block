@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+*/
+body, .editor-styles-wrapper {
+  .wp-block-maxgruson-details-gallery:not(.block-editor-block-list__block), 
+  .wp-block-maxgruson-details-gallery .block-editor-block-list__layout {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: repeat(3, 1fr);
+
+    .wp-block-maxgruson-details-gallery-item {
+      margin: 0;
+
+      .img-container {
+        position: relative;
+      }
+      .img-container, .block-editor-media-placeholder {
+        aspect-ratio: 1;
+      }
+    
+      .img-container__image {
+        opacity: 1;
+      }
+
+      figcaption {
+        text-align: left;
+        margin: .8em 0;
+        padding: 0 .8em;
+        display: flex;
+        flex-direction: column;
+        gap: .8em;
+        &>* {
+          margin: 0;
+        }
+      }
+
+      .trash-icon {
+        position: absolute;
+        right: .5rem;
+        bottom: .5rem;
+        background-color: rgba(255,255,255,0.25);
+      }
+    }
+  }
+}
